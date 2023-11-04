@@ -33,7 +33,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.1]
       # t.datetime :locked_at
       
       # 名前を保存するカラム
-      t.string :name. 
+      t.string :name
 
       t.timestamps null: false
     end
